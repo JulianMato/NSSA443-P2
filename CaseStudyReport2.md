@@ -71,24 +71,28 @@ Since it is a government organization they needed a secure network and a secure 
 <br>
 
 # Customer Meeting Synopsis:
+<br>
+<br>
+<br>
 
 # Network Structure:
 ## Network Border -     
+The network border will serve as the networks connection the WAN and as a direct link to the Azure ExpressRoute. For this topology we have chosen dual Watchguard Technologies Firebox M290 8 Port Firewall's with the optional SFP+ addon, these firewalls do duble duity being both a capable network security device and a high speed router. This device offers policy based trafic managment, DHCP, OSPF, BGP, Multi-WAN failover, jitter/latency mesurment, cloud log's and managment, DoS & DDoS protection, antivirus, and many other usefull features. the M290 has a robust throughput cappping out at 5.8Gbps with firewall only and 1.47Gbps with firewall, vpn, and antivirus active. With a throughput of 88.2Gbpm and and average buisiness persons top data use being 8.6MBpm with an estimated 27 full time employes that would only be 230.4MBpm or 0.22Gbpm, a fraction of the devices capability. Even factoring in custommer traffic there should never be any bottlenecks. And with a MTBF of 623,087 hours this gateway should rarely if ever fail.
 <br>
 <br>
 
 ## Network Core -     
-
+In the core we have opted to use the the Aruba 3810M 16SFP+ (JL075A) for varius reasons, one being its ability to stack multiple 3810M devices this will allow for longevity of the device reguardless of future expansion. With a throughput of up to 95.2 Mbps on a 64-byte packet and < 1.8 microsecing latency with a 64-byte packet on a 10Gps link the data speeds should be more than suficient for even the buisiest days. Some other notable features are the devices ability to add roles to devices, these rols can be uset to prioritise trafic, restrict trafic, and add security pollicys souch as packet filltering, ClearPass policy manager which alows the network to unify all Aruba wireless and wired devices policy managment systems. And with two of these devices, one allways on standby incase of falure, the core should not only be secure but allso highly reliable.
 <br>
 <br>
 
 ## Network Access -     
-
+For the access layer two devices where used, the Aruba 6100 24G PoE+ 4SFP+ (JL677A), and the Aruba 2530 8G PoE+ 2SFP+(J9780A) switches. To begin with each floor of building 1 has an Aruba 6100 switch to suport the wired devices on each floor. we went with the 6100 due to its 4 SFP+ modules allowing for 10Gbps inter switch networking for the highest throughput, along with its ampal 95.2Mpps throughput and 1.5(1 Gbps) 1.8(10 Gbps) microsecond latency these should more than sute there use case. For building two we have opted to use the smaller Aruba 2540, this device will give POE+ to all POE devices in building two along with extending the LAN to the branch with little to no latancy. The 2540 has a throughput of 4.1 Mpps and a latency of 1.3 microseconds at 1Gbps, due to the low number of systems in building two a more expensive and capable device would be wasted. that being said the 2530 is still a bapable device bringing all of the Aruba software that the 6100 and the 3810M provide shouch as ClearPass.
 <br>
 <br>
 
 ## Network WLAN -     
-
+The Wirless LAN or WLAN is a central part of this network which is why we chose four Aruba AP-505 which are dual radio, POE, wifi 6 (802.11ax) access point's. These AP's will be addvertising a public guest network, employee network, and a hidden network for internal wifi devices. The guest network will have trafic rules set through ClearPass to tunnle all trafic directly to the Border blocking all internal connectinons, the employee network will be more relaxed allowing access to network printers and internal services but each emmployee will have user roles placed on them to restrict there network connections and privaliges souch as being limmited to sending to only some printers or blocking cirtain external sights, and the hidden internal network will connect to the lab PC's. AP-505's suport up to 16 BSSID's and a maximum of 256(512 total) clients per radio at 1.2Gbps(5GHz) and 287~574Mbps(2.4GHz) wirless data transfer rate. Along with exilent performance each AP-505 serves as a policy enforcment firewall giving an added level of security from any malitious party trying to levorage the wirless network.
 <br>
 <br>
 
@@ -98,6 +102,7 @@ Since it is a government organization they needed a secure network and a secure 
 <br>
 
 ## Security and Network Managment -     
+The use of Aruba technology also gives us access to Aruba Central, Aruba Central is a cloud managment software that will allow for AI enhanced network security and managment but also serve as a central NMS(network managment software) providing everything from throughput 
 
 <br>
 <br>
@@ -145,7 +150,7 @@ Since it is a government organization they needed a secure network and a secure 
 ## General BOM -     
 |Amount|Product Name |Manufacturer|Description|Single Unit Cost in USD|Billing Period|Cloud Y/N|Expense Per Month in USD|Expense Per Year in USD|OTC in USD|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|9|Central one device - 1 year|HPE / Aruba||$11.60|Montly|Y|$104.40|$1,252.80|N/A|
+|9|Central - device/year|HPE / Aruba||$11.60|Montly|Y|$104.40|$1,252.80|N/A|
 |4|AP-505|HPE / Aruba||$506.00|One Time|N|||$2,024.00|
 |1|2530 8G PoE+ (J9780A)|HPE / Aruba||$792.00|One Time|N|||$792.00|
 |2|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba||$2,406.49|One Time|N|||$4,812.98|

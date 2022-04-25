@@ -143,35 +143,35 @@ Since it is a government organization they needed a secure network and a secure 
 <br>
 
 ## General BOM -     
-|Amount|Product Name |Manufacturer|Single Unit Cost in USD|Billing Period|Cloud Y/N|Expense Per Month in USD|Expense Per Year in USD|OTC in USD|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|9|Central one device - 1 year|HPE / Aruba|$11.60|Montly|Y|$104.40|$1,252.80|N/A|
-|4|AP-505|HPE / Aruba|$506.00|One Time|N|N/A|N/A|$2,024.00|
-|1|2530 8G PoE+ (J9780A)|HPE / Aruba|$792.00|One Time|N|||$792.00|
-|2|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|$2,406.49|One Time|N|||$4,812.98|
-|2|3810M 16SFP+ (JL075A)|HPE / Aruba|$4,524.12|One Time|N|||$9,048.24|
-|27|HP wireless keyboard and mouse|HP|$20.00|One Time|N|||$540.00|
-|54|ThinkCenter M70q Tiny|Lenovo|$478.00|One Time|N|||$25,812.00|
-|27|ThinkPad L14 AMD (14”)|Lenovo|$593.55|One Time|N|||$16,025.85|
-|27|ThinkPad Ultra Docking Station|Lenovo|$199.99|One Time|N|||$5,399.73|
-|3|6U Net Rack|NavePoint|$222.44|One Time|N|||$225.44|
-|1|18U Rack Enclosure|NavePoint|$866.49|One Time|N|||$866.49|
-|27|Office 365 with Enterprise Outlook|Microsoft|$22.00|Montly|Y|$594.00|$7,128.00|N/A|
-|N/A|Azure|Microsoft|N/A|Montly|Y|$2,961.16|$35,533.88|N/A|
-|2|Firebox M290 Firewall - 8 Port|Watchguard Technologies|$1,232.39|One Time|N|||$2,464.78|
-|27|CP-7841-K9|Cisco|$165.00|One Time|N|||$4,455.00|
-|8|HL-L2325DW|Brother|$99.99|One Time|N|||$799.92|
-|1|Versalink C405DNM|Xerox|$695.00|One Time|N|||$695.00|
-|81|E205W-1600 20”|Sceptre|$116.00|One Time|N|||$9,396.00|
-|2|Tripp Lite SMART1500LCD UPS|Tripp Lite|$248.71|One Time|N|||$250.71|
-|2|EMC PowerEdge R240|Dell|$1,445.99|One Time|N|||$2,891.98|
-|2|16TB Exos X18|Seagate|$339.97|One Time|N|||$679.94|
-|3|YubiKey 5 NFC FIPS – 10 Pack|Yubico|$550.00|One Time|N|||$1,650.00|
-|5|1000ft Shielded Gray Cat6|cablewholesale|$234.52|One Time|N|||$1,172.60|
-|578|Fiber Optic cable & Install / per foot|N/A|$3.00|One Time|N|||$1,734.00|
-|4536|Cat 6 installation & keystone’s / per foot|N/A|$1.50|One Time|N|||$6,804.00|
-|20|Inter Campus Tunnling / per foot|N/A|$200.00|One Time|N|||$4,000.00|
-|13|Door Acess Control|N/A|$1,200.00|One Time & Monthly|N|$650.00|$7,800.00|$15,600.00|
+|Amount|Product Name |Manufacturer|Description|Single Unit Cost in USD|Billing Period|Cloud Y/N|Expense Per Month in USD|Expense Per Year in USD|OTC in USD|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|9|Central one device - 1 year|HPE / Aruba||$11.60|Montly|Y|$104.40|$1,252.80|N/A|
+|4|AP-505|HPE / Aruba||$506.00|One Time|N|||$2,024.00|
+|1|2530 8G PoE+ (J9780A)|HPE / Aruba||$792.00|One Time|N|||$792.00|
+|2|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba||$2,406.49|One Time|N|||$4,812.98|
+|2|3810M 16SFP+ (JL075A)|HPE / Aruba||$4,524.12|One Time|N|||$9,048.24|
+|27|HP wireless keyboard and mouse|HP||$20.00|One Time|N|||$540.00|
+|54|ThinkCenter M70q Tiny|Lenovo||$478.00|One Time|N|||$25,812.00|
+|27|ThinkPad L14 AMD (14”)|Lenovo||$593.55|One Time|N|||$16,025.85|
+|27|ThinkPad Ultra Docking Station|Lenovo||$199.99|One Time|N|||$5,399.73|
+|3|6U Net Rack|NavePoint||$222.44|One Time|N|||$225.44|
+|1|18U Rack Enclosure|NavePoint||$866.49|One Time|N|||$866.49|
+|27|Office 365 with Enterprise Outlook|Microsoft||$22.00|Montly|Y|$594.00|$7,128.00||
+|1|Azure|Microsoft|||Montly|Y|$2,961.16|$35,533.88||
+|2|Firebox M290 Firewall - 8 Port|Watchguard Technologies||$1,232.39|One Time|N|||$2,464.78|
+|27|CP-7841-K9|Cisco||$165.00|One Time|N|||$4,455.00|
+|8|HL-L2325DW|Brother||$99.99|One Time|N|||$799.92|
+|1|Versalink C405DNM|Xerox||$695.00|One Time|N|||$695.00|
+|81|E205W-1600 20”|Sceptre||$116.00|One Time|N|||$9,396.00|
+|2|Tripp Lite SMART1500LCD UPS|Tripp Lite||$248.71|One Time|N|||$250.71|
+|2|EMC PowerEdge R240|Dell||$1,445.99|One Time|N|||$2,891.98|
+|2|16TB Exos X18|Seagate||$339.97|One Time|N|||$679.94|
+|3|YubiKey 5 NFC FIPS – 10 Pack|Yubico||$550.00|One Time|N|||$1,650.00|
+|5|1000ft Shielded Gray Cat6|cablewholesale||$234.52|One Time|N|||$1,172.60|
+|578|Fiber Optic cable & Install / per foot|||$3.00|One Time|N|||$1,734.00|
+|4536|Cat 6 installation & keystone’s / per foot|||$1.50|One Time|N|||$6,804.00|
+|20|Inter Campus Tunnling / per foot|||$200.00|One Time|N|||$4,000.00|
+|13|Door Acess Control|||$1,200.00|One Time & Monthly|N|$650.00|$7,800.00|$15,600.00|
 
 <br>
 <br>

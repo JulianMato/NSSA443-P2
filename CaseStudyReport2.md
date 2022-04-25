@@ -39,68 +39,68 @@
 <br>
 
 # Executive summary:
-For this network the customer needed a nearly complete ground up design of their network. This network contains new equipment (PC, Laptops, Infrastructure, and security devices) along with a host of software (Email, Storage, Network Monitoring, and security). The customer needs these basic services to be as reliable and functional as possible. We will be providing a cloud based work environment centered around Microsoft Azure, this will provide AD, Storage, backups, email, notifications, and parts of security. Along with this cloud infrastructure we will be providing a Full unified wired and wireless network to both buildings.
+For this network, the customer needed a nearly complete ground-up design of their network. This network contains new equipment (PC, Laptops, Infrastructure, and security devices) along with a host of software (Email, Storage, Network Monitoring, and security). The customer needs these basic services to be as reliable and functional as possible. We will be providing a cloud-based work environment centered around Microsoft Azure, this will provide AD, Storage, backups, email, notifications, and parts of security. Along with this cloud infrastructure, we will be providing a Full unified wired and wireless network to both buildings.
 <br>
 <br>
 <br>
 
 # Introduction:
 ## Assignment Outline
-There is a small government business. The business is trying to update their office and put in a network. They have five departments, three management staff, and some training providers in two buildings. They need a network to share information and documents over while that information must remain secure to government standards.
+There is a small government business. The business is trying to update its office and put in a network. They have five departments, three management staff, and some training providers in two buildings. They need a network to share information and documents over while that information must remain secure to government standards.
 <br>
 <br>
 
 ## Project Outline -      
-This paper outlines the design of a network for a small buisness. This network is an improvement over a previous design for the same building. The myriad of nessesary fetures have been satisfied as well as an improvement in security and network optimization. We have a cloud hybrid solution that maximise security, accountability and expandability as well as easing the onsite IT.
+This paper outlines the design of a network for a small business. This network is an improvement over a previous design for the same building. The myriad of necessary features has been satisfied as well as an improvement in security and network optimization. We have a cloud hybrid solution that maximizes security, accountability, and expandability as well as easing the onsite IT.
 <br>
 <br>
 <br>
 
 # Requirements Analysis:
 ## General Requirements -     
-This building had only a small network in acounting. The buisness needed to have Computers for employees and secure storage and trasfer of confidential records. They are a government buisness and need their data to be secure but they also needed to be able to share between certaint departments and better analize data. 
+This building had only a small network in accounting. The business needed to have Computers for employees and secure storage and transfer of confidential records. They are a government business and need their data to be secure but they also needed to be able to share between certain departments and better analyze data. 
 <br>
 <br>
 
 ## Hardware Requirements -     
-The company needed an entire network from scratch. They needed a desktop computer per employee as well as a laptop per employee. There were also 54 micro computers to put in classroom labs. Each desktop and micro computer needed a monitor and periferals. We needed to design a network and purchase the hardware to put it in place so we had to buy switches, a support server, and access points to implement the network that they wanted. We planned all of the cat6 cable runs throughout the building as well as the fiber lines connecting our layer 3 switches and the fiber connection under the road to the other building. They wanted a lot of office printers and a larger printer/scanner/coppier, in order to better fit in the buget not everyone could get individual printers but the people we didn't give a printer to are in extream close proximity to the large comunal printer. We mapped where there should be power drops, each power drop would have 4 connections and each internet drop would have 2 connections. 
+The company needed an entire network from scratch. They needed a desktop computer per employee as well as a laptop per employee. There were also 54 microcomputers to put in classroom labs. Each desktop and microcomputer needed a monitor and peripherals. We needed to design a network and purchase the hardware to put it in place so we had to buy switches, a support server, and access points to implement the network that they wanted. We planned all of the cat6 cables to run throughout the building as well as the fiber lines connecting our layer 3 switches and the fiber connection under the road to the other building. They wanted a lot of office printers and a larger printer/scanner/copier, to better fit in the budget not everyone could get individual printers but the people we didn't give a printer to are in extremely close proximity to the large communal printer. We mapped where there should be power drops, each power drop would have 4 connections and each internet drop would have 2 connections. 
 <br>
 <br>
 
 ## Software Requirements -     
-Since it is a government organization they needed a secure network and a secure storage. the AZURE suite had all of the components needed to build a network that was secure and accessable. We have secure storage set up and backed up with a seperate storage for accounting for added security. AZURE also has active directory so our network has security that insures only people who are allowed to look at or edit something are allowed to view it. We also have office 365 for each person so that they have access to word prossesing, spreadsheet, and presentation software to aid in the recording of information, the analizing of data, and the formation of presentations.  
+Since it is a government organization it needed a secure network and secure storage. the AZURE suite had all of the components needed to build a network that was secure and accessible. We have secure storage set up and backed up with separate storage for accounting for added security. AZURE also has an active directory so our network has security that ensures only people who are allowed to look at or edit something are allowed to view it. We also have office 365 for each person so that they have access to word processing, spreadsheet, and presentation software to aid in the recording of information, the analyzing of data, and the formation of presentations.  
 <br>
 <br>
 <br>
 
 # Network Structure:
 ## Network Border -     
-The network border will serve as the networks connection the WAN and as a direct link to the Azure ExpressRoute. For this topology we have chosen dual Watchguard Technologies Firebox M290 8 Port Firewall's with the optional SFP+ addon, these firewalls do duble duity being both a capable network security device and a high speed router. This device offers policy based trafic managment, DHCP, OSPF, BGP, Multi-WAN failover, jitter/latency mesurment, cloud log's and managment, DoS & DDoS protection, antivirus, and many other usefull features. the M290 has a robust throughput cappping out at 5.8Gbps with firewall only and 1.47Gbps with firewall, vpn, and antivirus active. With a throughput of 88.2Gbpm and and average buisiness persons top data use being 8.6MBpm with an estimated 27 full time employes that would only be 230.4MBpm or 0.22Gbpm, a fraction of the devices capability. Even factoring in custommer traffic there should never be any bottlenecks. And with a MTBF of 623,087 hours this gateway should rarely if ever fail.
+The network border will serve as the networks connection to the WAN and as a direct link to the Azure ExpressRoute. For this topology we have chosen dual Watchguard Technologies Firebox M290 8 Port Firewalls with the optional SFP+ addon, these firewalls do double duty being both a capable network security device and a high-speed router. This device offers policy-based traffic management, DHCP, OSPF, BGP, Multi-WAN failover, jitter/latency measurement, cloud logs and management, DoS & DDoS protection, antivirus, and many other useful features. the M290 has a robust throughput capping out at 5.8Gbps with firewall only and 1.47Gbps with firewall, VPN, and antivirus active. With a throughput of 88.2Gbpm and the average business person's top data use being 8.6MBpm with an estimated 27 full-time employees that would only be 230.4MBpm or 0.22Gbpm, a fraction of the device's capability. Even factoring in customer traffic there should never be any bottlenecks. And with an MTBF of 623,087 hours, this gateway should rarely if ever fail.
 <br>
 <br>
 
 ## Network Core -     
-In the core we have opted to use the the Aruba 3810M 16SFP+ (JL075A) for varius reasons, one being its ability to stack multiple 3810M devices this will allow for longevity of the device reguardless of future expansion. With a throughput of up to 95.2 Mbps on a 64-byte packet and < 1.8 microsecing latency with a 64-byte packet on a 10Gps link the data speeds should be more than suficient for even the buisiest days. Some other notable features are the devices ability to add roles to devices, these rols can be uset to prioritise trafic, restrict trafic, and add security pollicys souch as packet filltering, ClearPass policy manager which alows the network to unify all Aruba wireless and wired devices policy managment systems. And with two of these devices, one allways on standby incase of falure, the core should not only be secure but allso highly reliable.
+In the core we have opted to use the Aruba 3810M 16SFP+ (JL075A) for various reasons, one being its ability to stack multiple 3810M devices this will allow for longevity of the device regardless of future expansion. With a throughput of up to 95.2 Mbps on a 64-byte packet and < 1.8-microsecond latency with a 64-byte packet on a 10Gps link the data speeds should be more than sufficient for even the busiest days. Some other notable features are the device's ability to add roles to devices, these roles can be used to prioritize traffic, restrict traffic, and add security policies such as packet filtering, ClearPass policy manager which allows the network to unify all Aruba wireless and wired devices policy management systems. And with two of these devices, one always on standby in case of failure, the core should not only be secure but also highly reliable.
 <br>
 <br>
 
 ## Network Access -     
-For the access layer two devices where used, the Aruba 6100 24G PoE+ 4SFP+ (JL677A), and the Aruba 2530 8G PoE+ 2SFP+(J9780A) switches. To begin with each floor of building 1 has an Aruba 6100 switch to suport the wired devices on each floor. we went with the 6100 due to its 4 SFP+ modules allowing for 10Gbps inter switch networking for the highest throughput, along with its ampal 95.2Mpps throughput and 1.5(1 Gbps) 1.8(10 Gbps) microsecond latency these should more than sute there use case. For building two we have opted to use the smaller Aruba 2540, this device will give POE+ to all POE devices in building two along with extending the LAN to the branch with little to no latancy. The 2540 has a throughput of 4.1 Mpps and a latency of 1.3 microseconds at 1Gbps, due to the low number of systems in building two a more expensive and capable device would be wasted. that being said the 2530 is still a bapable device bringing all of the Aruba software that the 6100 and the 3810M provide shouch as ClearPass.
+For the access layer, two devices were used, the Aruba 6100 24G PoE+ 4SFP+ (JL677A), and the Aruba 2530 8G PoE+ 2SFP+(J9780A) switches. To begin with, each floor of building 1 has an Aruba 6100 switch to support the wired devices on each floor. we went with the 6100 due to its 4 SFP+ modules allowing for 10Gbps inter-switch networking for the highest throughput, along with its ample 95.2Mpps throughput and 1.5(1 Gbps) 1.8(10 Gbps) microsecond latency these should be more than sufficient for there use case. For building two we have opted to use the smaller Aruba 2540, this device will give POE+ to all POE devices in building two along with extending the LAN to the branch with little to no latency. The 2540 has a throughput of 4.1 Mpps and a latency of 1.3 microseconds at 1Gbps, due to the low number of systems in building two a more expensive and capable device would be wasted. that being said the 2530 is still a capable device bringing all of the Aruba software that the 6100 and the 3810M provide such as ClearPass.
 <br>
 <br>
 
 ## Network WLAN -     
-The Wirless LAN or WLAN is a central part of this network which is why we chose four Aruba AP-505 which are dual radio, POE, wifi 6 (802.11ax) access point's. These AP's will be addvertising a public guest network, employee network, and a hidden network for internal wifi devices. The guest network will have trafic rules set through ClearPass to tunnle all trafic directly to the Border blocking all internal connectinons, the employee network will be more relaxed allowing access to network printers and internal services but each emmployee will have user roles placed on them to restrict there network connections and privaliges souch as being limmited to sending to only some printers or blocking cirtain external sights, and the hidden internal network will connect to the lab PC's. AP-505's suport up to 16 BSSID's and a maximum of 256(512 total) clients per radio at 1.2Gbps(5GHz) and 287~574Mbps(2.4GHz) wirless data transfer rate. Along with exilent performance each AP-505 serves as a policy enforcment firewall giving an added level of security from any malitious party trying to levorage the wirless network.
+The Wireless LAN or WLAN is a central part of this network which is why we chose four Aruba AP-505 which are dual radio, POE, and wifi 6 (802.11ax) access points. These APs will be advertising a public guest network, an employee network, and a hidden network for internal wifi devices. The guest network will have traffic rules set through ClearPass to tunnel all traffic directly to the Border blocking all internal connections, the employee network will be more relaxed allowing access to network printers and internal services but each employee will have user roles placed on them to restrict there network connections and privileges such as being limited to sending to only some printers or blocking certain external sights, and the hidden internal network will connect to the lab PCs. AP-505's supports up to 16 BSSIDs and a maximum of 256(512 total) clients per radio at 1.2Gbps(5GHz) and 287~574Mbps(2.4GHz) wireless data transfer rate. Along with excellent performance, each AP-505 serves as a policy enforcement firewall giving an added level of security from any malicious party trying to leverage the wireless network.
 <br>
 <br>
 
 ## Servers and Services -     
-We will have two Dell PowerEdge R240 set to fail over in case of falure, they are also located on diffrent flors and on diffrent switches in case a critical device fails. The servers will be running a VoIP service, print server and que, log collection(Greylog or other solution), and some on-prem storage for buffered cloud media. The R240 is a cheap lightweight system with Dell IDRAC for out of band managment along with more than suficient power for the needs of the company.
+We will have two Dell PowerEdge R240 set to failover in case of failure, they are also located on different floors and on different switches in case a critical device fails. The servers will be running a VoIP service, print server and queue, log collection(Greylog or other solution), and some on-prem storage for buffered cloud media. The R240 is a cheap lightweight system with Dell IDRAC for out of band management along with more than sufficient power for the needs of the company.
 <br>
 <br>
 
 ## Security and Network Managment -     
-As mentioned above we will have two Watchguard Technologies Firebox M290 Firewall's protecting our network allong with the AP-505 firewall capabilities protection from internal threats. Within the network we decided to levorage Arubas Central cloud managment solution. Central allows the system administrator to agrigate all Aruba devices in to one Network managment tool, Central allows for streamlined onboarding by giving remote configuration capabilities, Central has AI Insights which diagnoses and repairs common or simple issues automaticly, along with AI automated diagnostic collection allowing for faster and more precise errors even going as far as contacting Aruba suport to diagnose and inform. Central manitors and visualises all devices data souch as network health, application visibility, UCC analytics(VoIP), and client health. With Aruba Central and Azure Active Directroy all fassets of the network can be monitord, secuted, and administrated from only two platforms.
+As mentioned above we will have two Watchguard Technologies Firebox M290 Firewalls protecting our network along with the AP-505 firewall capabilities protection from internal threats. Within the network, we decided to leverage Arubas Central cloud management solution. Central allows the system administrator to aggregate all Aruba devices into one Network management tool, Central allows for streamlined onboarding by giving remote configuration capabilities, Central has AI Insights which diagnoses and repairs common or simple issues automatically, along with AI automated diagnostic collection allowing for faster and more precise errors even going as far as contacting Aruba support to diagnose and inform. Central monitors and visualizes all device data such as network health, application visibility, UCC analytics(VoIP), and client health. With Aruba Central and Azure Active Directory, all facets of the network can be monitored, secured, and administrated from only two platforms.
 <br>
 <br>
 
@@ -110,7 +110,7 @@ As mentioned above we will have two Watchguard Technologies Firebox M290 Firewal
 <br>
 
 ## Employee Systems - 
-Each Employee of the full time staff will have a laptop and an office with a dock for the laptop, a phone, a ubikey, an access pass, a wireless keyboard and mouse, and a monitor. The Laptop dock allows them to connect their laptop to the wired internal network and use it as a desktop when they do not need to be moving around. The ubikey is an advanced form of access control that is a physical 2 factor authentication that keeps data and devices secure. The access pass will give them access to the rooms that they are allowed to be in with the door access control locks. Every Employee will have access to a shared printer on their floor in an easy to reach area to print, scan, and copy documents. they can also access cloud storage and their email to securely store and share information.
+Each Employee of the full-time staff will have a laptop and an office with a dock for the laptop, a phone, a ubikey, an access pass, a wireless keyboard and mouse, and a monitor. The Laptop dock allows them to connect their laptop to the wired internal network and use it as a desktop when they do not need to be moving around. The ubikey is an advanced form of access control that is a physical 2-factor authentication that keeps data and devices secure. The access pass will give them access to the rooms that they are allowed to be in with the door access control locks. Every Employee will have access to a shared printer on their floor in an easy-to-reach area to print, scan, and copy documents. they can also access cloud storage and their email to securely store and share information.
 <br>
 <br>
 <br>
@@ -139,7 +139,7 @@ Each Employee of the full time staff will have a laptop and an office with a doc
 
 # Budget and Justification:
 ## Justification -     
-The network we desighned though over budget is easily managed and administrated, secure, delivers the quality of service desired, has a high uptime, and can be accesed remotely. Our network is also very condusive twords colabaritive work by allowing employees to move from office to common space or home without any complicated backup systems, this also streamlines phisical security of each office since no critical equipment should be stored there. A large part of the cost of this network is the access controll system, the reason why we have allocated souch a large ammount of recources to this system is because we beleve that in a facility with many non-employee individuals phisicaly securing assets is imperative. Moving away from the phisical we finnd the Cloud platforms, mainly Azure and Central, Azure is the main work environment for all employees doing everything from authentication, user managment, GPO(Group Policy), storage, email, and office 365. on the other hand Aruba Central provides network managment, visualisation, monitoring, automatic repair, automatic diagnostic, and streamlined onboarding.
+The network we designed though over budget is easily managed and administrated, secure, deliver the quality of service desired, has high uptime, and can be accessed remotely. Our network is also very conducive to collaborative work by allowing employees to move from office to common space or home without any complicated backup systems, this also streamlines the physical security of each office since no critical equipment should be stored there. A large part of the cost of this network is the access control system, the reason why we have allocated such a large amount of resources to this system is because we believe that in a facility with many non-employee individuals physically securing assets is imperative. Moving away from the physical we find the Cloud platforms, mainly Azure and Central, Azure is the main work environment for all employees doing everything from authentication, user management, GPO(Group Policy), storage, email, and office 365. on the other hand Aruba Central provides network management, visualisation, monitoring, automatic repair, automatic diagnostic, and streamlined onboarding.
 <br>
 <br>
 
@@ -214,52 +214,56 @@ This network utilizes almost all of the current spine switches so if expansion w
 <br>
 
 # Optimizations Suggested:
-
+As for opromizations, 
+- We recommend the hiring of full time System administrators to maintain the network
+- Adding a reboot to restore software such as deep freeze to all lab PCs 
+- Add some Azure analytical compute to streamline analytical work
 <br>
 <br>
 <br>
 
 # Summary:
-
+This network is a 3 tiered closs with ospf. The network has a server and a backup server that host a print server and a call server. There is a link to the Azure cloud that handles storage, backup, and active directory. The office 365 provides email and many applications used for daily operation. Each Employee has a VOIP phone, a laptop, a security badge, and a ubikey to keep the building secure and to be able to bring work around with them securely. Each floor has an easily accesses printer and documents can be scanned and copied. Offices are secured and the buildings are only accessible to people who are allowed in. The classrooms have computers to help facilitate learning and make it easy to complete and turn in assignments. The network can be expanded to more floors or buildings or even to a new location far away.
 <br>
 <br>
 <br>
 
 # Appendix A Q&A:
-
+Customer Had no Follow up questions at time of interview.
 <br>
 <br>
 <br>
 
 # Appendix B Cost Analasys Sources:
 |Product Name |Manufacturer|Source|
-|:---:|:---:|:---:|
-|Central - device/year|HPE / Aruba||
-|AP-505|HPE / Aruba||
-|2530 8G PoE+ (J9780A)|HPE / Aruba||
+|:---:|:---:|:---|
+|Central - device/year|HPE / Aruba|Quote|
+|AP-505|HPE / Aruba|https://www.arubanetworks.com/products/wireless/access-points/indoor-access-points/500-series/|
+|2530 8G PoE+ (J9780A)|HPE / Aruba|https://www.amazon.com/HP-J9780A-ABA-2530-8-POE-Ethernet/dp/B00DD661BK|
 |6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|https://www.alphatechserve.com/jl677a-hewlett-packard-network-switch.html?msclkid=a699eefa4e881eba3a098c9c2df69082|
-|3810M 16SFP+ (JL075A)|HPE / Aruba||
-|HP wireless keyboard and mouse|HP||
-|ThinkCenter M70q Tiny|Lenovo||
-|ThinkPad L14 AMD (14”)|Lenovo||
-|ThinkPad Ultra Docking Station|Lenovo||
-|6U Net Rack|NavePoint||
-|18U Rack Enclosure|NavePoint||
-|Office 365 with Enterprise Outlook|Microsoft||
+|3810M 16SFP+ (JL075A)|HPE / Aruba|https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/3800-switch-products/aruba-3810m-switch-series/aruba-3810m-16sfp-2-slot-switch/p/JL075A|
+|HP wireless keyboard and mouse|HP|https://www.hp.com/us-en/shop/pdp/hp-wireless-keyboard-and-mouse-300?&a=1&jumpid=cs_con_nc_ns&utm_medium=cs&utm_source=ga&utm_campaign=HP-Store_US_All_PS_All_Hgm_OPEX_Google_ALL_Smart-PLA_Accessories&utm_content=sp&adid=535139517283&addisttype=u&3ML04AA%23ABL&cq_src=google_ads&cq_cmp=13986092542&cq_con=123447150365&cq_term=&cq_med=&cq_plac=&cq_net=u&cq_pos=&cq_plt=gp&gclid=Cj0KCQjw3v6SBhCsARIsACyrRAkaY6NMkwWIh5_zClBbOWlLmPJSKRH3-SIlPMvE_pz0OHYFozpue2oaAtiIEALw_wcB&gclsrc=aw.ds|
+|ThinkCenter M70q Tiny|Lenovo|https://www.amazon.com/dp/B075FHNZC8/ref=cm_sw_r_apan_i_KN41PMDTJ6N10RZJBBK6|
+|ThinkPad L14 AMD (14”)|Lenovo|https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadl/thinkpad-l14-(amd)/20u5s0nt00?orgRef=https%253A%252F%252Fduckduckgo.com%252F|
+|ThinkPad Ultra Docking Station|Lenovo|https://www.lenovo.com/us/en/p/accessories-and-software/docking/mechanical-docks/40aj0135us|
+|6U Net Rack|NavePoint|https://navepoint.com/navepoint-6u-600mm-depth-wallmount-networking-cabinet-pro-series/|
+|18U Rack Enclosure|NavePoint|https://navepoint.com/navepoint-18u-838mm-mid-depth-perforated-networking-cabinet/|
+|Office 365 with Enterprise Outlook|Microsoft|https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans|
 |Azure|Microsoft|https://azure.microsoft.com/en-us/pricing/calculator/|
-|Firebox M290 Firewall - 8 Port|Watchguard Technologies||
-|CP-7841-K9|Cisco||
-|HL-L2325DW|Brother||
-|Versalink C405DNM|Xerox||
-|E205W-1600 20”|Sceptre||
-|Tripp Lite SMART1500LCD UPS|Tripp Lite||
-|EMC PowerEdge R240|Dell||
+|Firebox M290 Firewall - 8 Port|Watchguard Technologies|https://www.newegg.com/p/0E6-003P-00209?item=9SIA24GGZ77940&source=region|
+|CP-7841-K9|Cisco|https://www.serversupply.com/NETWORKING/TELEPHONY%20EQUIPMENT/IP%20PHONE/CISCO/CP-7841-K9_261954.htm?gclid=Cj0KCQjw3v6SBhCsARIsACyrRAlF8nkxb7fQ9CVaDEs9dCa-J5f4OndArjmqIrFiQr9TQmx21yaMk5MaAl4yEALw_wcB|
+|HL-L2325DW|Brother|https://www.brother-usa.com/products/hll2325dw|
+|Versalink C405DNM|Xerox|https://www.absolutetoner.com/collections/high-quality-multifunction-copier-printer/products/xerox-versalink-c405dnm-color-multifunction-laser-printer-copier-scanner-lcd-touch-screen-for-business-1|
+|E205W-1600 20”|Sceptre|https://www.amazon.com/Sceptre-E205W-1600-Monitor-Speakers-Metallic/dp/B00S8W8QMG/ref=sr_1_12?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf7J_GhApFOJg3ry9prH3HyfGJCgIzTZCsV-qjlwsGxJXGxP1hj62LxoCH5UQAvD_BwE&hvadid=557425881260&hvdev=c&hvlocphy=9005677&hvnetw=g&hvqmt=e&hvrand=9278504598654359630&hvtargid=kwd-4776931143&hydadcr=19102_13356696&keywords=hdmi+display&qid=1650374134&sr=8-12|
+|Tripp Lite SMART1500LCD UPS|Tripp Lite|https://www.tripplite.com/smartpro-lcd-120v-1500va-900w-line-interactive-ups-avr-2u-rack-tower-lcd-usb-db9-serial-8-outlets~smart1500lcd|
+|EMC PowerEdge R240|Dell|https://www.dell.com/en-us/work/shop/povw/poweredge-r240?gacd=9650523-1033-5761040-266691960-0&dgc=st&gclid=CjwKCAjwjZmTBhB4EiwAynRmD9bxtOeGn9medcE2i7J-t5QOWcuv4GvNKRxeJowxqStXPGGqTujLARoCdLIQAvD_BwE&gclsrc=aw.ds&nclid=9uXcXHNcwGBQpCOY83PsrVPl9PoINqdbR6ttWf2VMaKO-aVkfBf9VMDmTutc6S9Q|
+|16TB Exos X18|Seagate|https://www.seagate.com/products/enterprise-drives/exos-x/x18/|
 |YubiKey 5 NFC FIPS – 10 Pack|Yubico|https://www.yubico.com/product/yubikey-5-nfc-fips-10-pack/|
 |1000ft Shielded Gray Cat6|cablewholesale|https://www.cablewholesale.com/products/bulk-cable/cat-6-cable-bulk/product-10x8-521nh.php|
 |Fiber Optic cable & Install / per foot||https://spendonhome.com/fiber-optic-cable-installation-cost/|
-|Cat 6 installation & keystone’s / per foot|||
+|Cat 6 installation & keystone’s / per foot||https://www.fixr.com/costs/hardwired-computer-network|
 |Inter Campus Tunnling / per foot||https://anchorfoundationrepair.net/blog/average-cost-under-slab-tunneling/|
-|Door Acess Control|Kisi||
+|Door Acess Control|Kisi|https://www.getkisi.com/blog/breakdown-of-access-control-system-installation-costs|
 
 <br>
 <br>

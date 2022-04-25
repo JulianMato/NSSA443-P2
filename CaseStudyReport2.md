@@ -1,7 +1,5 @@
 # <center>**Case Study #2**</center><br><center> By Julian Mato-Hernandez & Evan Jurdan </center>
 
-# Document Outline
-- [Document Outline](#document-outline)
 - [Executive summary](#executive-summary)
 - [Introduction](#introduction)
     - [Assignment Outline](#assignment-outline)
@@ -45,7 +43,7 @@ For this network, the customer needed a nearly complete ground-up design of thei
 <br>
 
 # Introduction:
-## Assignment Outline
+## Assignment Outline -     
 There is a small government business. The business is trying to update its office and put in a network. They have five departments, three management staff, and some training providers in two buildings. They need a network to share information and documents over while that information must remain secure to government standards.
 <br>
 <br>
@@ -105,7 +103,7 @@ As mentioned above we will have two Watchguard Technologies Firebox M290 Firewal
 <br>
 
 ## Client Systems - 
-
+Each computer lab/classroom will have 12 Micro computers. the micro computers have the micro computer, a keyboard and mouse, and a monitor. the micro computers are wireless and connect to the wireless access points. The micro computers are connected to the monitors and keyboards physically and then to power so if needed they can be moved around. The micro pc has an i9-10900T, 256GB SSD and 8GB of ram.
 <br>
 <br>
 
@@ -163,7 +161,7 @@ The network we designed though over budget is easily managed and administrated, 
 |2|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|The Aruba CX 6100 Switch Series is a modern family of entry level access switches ideal for branch offices, mid-market enterprise, and SMB networks. Designed for reliable, simple, and secure access, the Aruba CX 6100 switches provide a convenient wired access solution for enterprise networks supporting IoT, mobile, and cloud applications.|$2,406.49|One Time|N|||$4,812.98|
 |2|3810M 16SFP+ (JL075A)|HPE / Aruba|The Aruba 3810 Switch Series provides performance and resiliency for enterprises, SMBs, and branch office networks. With HPE Smart Rate multi-gigabit ports for high-speed 802.11ac devices, this advanced Layer 3 switch delivers a better application experience with low latency, virtualization with resilient stacking technology, and line rate 40GbE for plenty of back haul capacity. The Aruba 3810 is easy to deploy and manage with advanced security and network management tools like Aruba ClearPass Policy Manager, Aruba AirWave and cloud-based Aruba Central.|$4,524.12|One Time|N|||$9,048.24|
 |27|HP wireless keyboard and mouse|HP|A wireless keyboard and mouse|$20.00|One Time|N|||$540.00|
-|54|ThinkCenter M70q Tiny|Lenovo|Micro computer with an i5-3470T 500GB HDD and 8GB ram|$478.00|One Time|N|||$25,812.00|
+|54|ThinkCenter M70q Tiny|Lenovo|A 1 Litre enterprise-level powerhouse with mainstream performance and productivity, the ThinkCentre M70q Tiny desktop strikes a perfect balance between performance and footprint.|$478.00|One Time|N|||$25,812.00|
 |27|ThinkPad L14 AMD (14”)|Lenovo|Laptop with a Ryzen 3 Pro 4450U 256GB SSD and 8GB ram|$593.55|One Time|N|||$16,025.85|
 |27|ThinkPad Ultra Docking Station|Lenovo|A docking station for ThinkPad Notbook laptops|$199.99|One Time|N|||$5,399.73|
 |3|6U Net Rack|NavePoint|A server rack with a lock|$222.44|One Time|N|||$225.44|
@@ -243,7 +241,7 @@ Customer Had no Follow up questions at time of interview.
 |6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|https://www.alphatechserve.com/jl677a-hewlett-packard-network-switch.html?msclkid=a699eefa4e881eba3a098c9c2df69082|
 |3810M 16SFP+ (JL075A)|HPE / Aruba|https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/3800-switch-products/aruba-3810m-switch-series/aruba-3810m-16sfp-2-slot-switch/p/JL075A|
 |HP wireless keyboard and mouse|HP|https://www.hp.com/us-en/shop/pdp/hp-wireless-keyboard-and-mouse-300?&a=1&jumpid=cs_con_nc_ns&utm_medium=cs&utm_source=ga&utm_campaign=HP-Store_US_All_PS_All_Hgm_OPEX_Google_ALL_Smart-PLA_Accessories&utm_content=sp&adid=535139517283&addisttype=u&3ML04AA%23ABL&cq_src=google_ads&cq_cmp=13986092542&cq_con=123447150365&cq_term=&cq_med=&cq_plac=&cq_net=u&cq_pos=&cq_plt=gp&gclid=Cj0KCQjw3v6SBhCsARIsACyrRAkaY6NMkwWIh5_zClBbOWlLmPJSKRH3-SIlPMvE_pz0OHYFozpue2oaAtiIEALw_wcB&gclsrc=aw.ds|
-|ThinkCenter M70q Tiny|Lenovo|https://www.amazon.com/dp/B075FHNZC8/ref=cm_sw_r_apan_i_KN41PMDTJ6N10RZJBBK6|
+|ThinkCenter M70q Tiny|Lenovo|https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m70q/wmd00000405?orgRef=https%253A%252F%252Fduckduckgo.com%252F|
 |ThinkPad L14 AMD (14”)|Lenovo|https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadl/thinkpad-l14-(amd)/20u5s0nt00?orgRef=https%253A%252F%252Fduckduckgo.com%252F|
 |ThinkPad Ultra Docking Station|Lenovo|https://www.lenovo.com/us/en/p/accessories-and-software/docking/mechanical-docks/40aj0135us|
 |6U Net Rack|NavePoint|https://navepoint.com/navepoint-6u-600mm-depth-wallmount-networking-cabinet-pro-series/|

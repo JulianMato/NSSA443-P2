@@ -232,34 +232,34 @@ This network utilizes almost all of the current spine switches so if expansion w
 <br>
 
 # Appendix B Cost Analasys Sources:
-|Amount|Product Name |Manufacturer|Source|
-|:---:|:---:|:---:|:---:|
-|9|Central - device/year|HPE / Aruba||
-|4|AP-505|HPE / Aruba||
-|1|2530 8G PoE+ (J9780A)|HPE / Aruba||
-|2|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|https://www.alphatechserve.com/jl677a-hewlett-packard-network-switch.html?msclkid=a699eefa4e881eba3a098c9c2df69082|
-|2|3810M 16SFP+ (JL075A)|HPE / Aruba||
-|27|HP wireless keyboard and mouse|HP||
-|54|ThinkCenter M70q Tiny|Lenovo||
-|27|ThinkPad L14 AMD (14”)|Lenovo||
-|27|ThinkPad Ultra Docking Station||
-|3|6U Net Rack|NavePoint||
-|1|18U Rack Enclosure|NavePoint||
-|27|Office 365 with Enterprise Outlook|Microsoft||
-|1|Azure|Microsoft|https://azure.microsoft.com/en-us/pricing/calculator/|
-|2|Firebox M290 Firewall - 8 Port|Watchguard Technologies||
-|27|CP-7841-K9|Cisco||
-|8|HL-L2325DW|Brother||
-|1|Versalink C405DNM|Xerox||
-|81|E205W-1600 20”|Sceptre||
-|2|Tripp Lite SMART1500LCD UPS|Tripp Lite||
-|2|EMC PowerEdge R240|Dell||
-|3|YubiKey 5 NFC FIPS – 10 Pack|Yubico|https://www.yubico.com/product/yubikey-5-nfc-fips-10-pack/|
-|5|1000ft Shielded Gray Cat6|cablewholesale|https://www.cablewholesale.com/products/bulk-cable/cat-6-cable-bulk/product-10x8-521nh.php|
-|578|Fiber Optic cable & Install / per foot||https://spendonhome.com/fiber-optic-cable-installation-cost/|
-|4536|Cat 6 installation & keystone’s / per foot|||
-|20|Inter Campus Tunnling / per foot||https://anchorfoundationrepair.net/blog/average-cost-under-slab-tunneling/|
-|13|Door Acess Control|Kisi||
+|Product Name |Manufacturer|Source|
+|:---:|:---:|:---:|
+|Central - device/year|HPE / Aruba||
+|AP-505|HPE / Aruba||
+|2530 8G PoE+ (J9780A)|HPE / Aruba||
+|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|https://www.alphatechserve.com/jl677a-hewlett-packard-network-switch.html?msclkid=a699eefa4e881eba3a098c9c2df69082|
+|3810M 16SFP+ (JL075A)|HPE / Aruba||
+|HP wireless keyboard and mouse|HP||
+|ThinkCenter M70q Tiny|Lenovo||
+|ThinkPad L14 AMD (14”)|Lenovo||
+|ThinkPad Ultra Docking Station|Lenovo||
+|6U Net Rack|NavePoint||
+|18U Rack Enclosure|NavePoint||
+|Office 365 with Enterprise Outlook|Microsoft||
+|Azure|Microsoft|https://azure.microsoft.com/en-us/pricing/calculator/|
+|Firebox M290 Firewall - 8 Port|Watchguard Technologies||
+|CP-7841-K9|Cisco||
+|HL-L2325DW|Brother||
+|Versalink C405DNM|Xerox||
+|E205W-1600 20”|Sceptre||
+|Tripp Lite SMART1500LCD UPS|Tripp Lite||
+|EMC PowerEdge R240|Dell||
+|YubiKey 5 NFC FIPS – 10 Pack|Yubico|https://www.yubico.com/product/yubikey-5-nfc-fips-10-pack/|
+|1000ft Shielded Gray Cat6|cablewholesale|https://www.cablewholesale.com/products/bulk-cable/cat-6-cable-bulk/product-10x8-521nh.php|
+|Fiber Optic cable & Install / per foot||https://spendonhome.com/fiber-optic-cable-installation-cost/|
+|Cat 6 installation & keystone’s / per foot|||
+|Inter Campus Tunnling / per foot||https://anchorfoundationrepair.net/blog/average-cost-under-slab-tunneling/|
+|Door Acess Control|Kisi||
 
 <br>
 <br>

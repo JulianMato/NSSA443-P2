@@ -1,7 +1,7 @@
 # <center>**Case Study #2**</center><br><center> By Julian Mato-Hernandez & Evan Jurdan </center>
 
 # Document Outline
-- [Document Outline](#document-outline) 
+- [Document Outline](#document-outline)
 - [Executive summary](#executive-summary)
 - [Introduction](#introduction)
     - [Assignment Outline](#assignment-outline)
@@ -157,7 +157,7 @@ The network we desighned though over budget is easily managed and administrated,
 ## General BOM -     
 |Amount|Product Name |Manufacturer|Description|Single Unit Cost in USD|Billing Period|Cloud Y/N|Expense Per Month in USD|Expense Per Year in USD|OTC in USD|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|9|Central one device - 1 year|HPE / Aruba||$11.60|Montly|Y|$104.40|$1,252.80|N/A|
+|9|Central - device/year|HPE / Aruba||$11.60|Montly|Y|$104.40|$1,252.80|N/A|
 |4|AP-505|HPE / Aruba|Secure Wi-Fi 6 (802.11ax) access points for indoor environments such as mid-sized offices, schools, or retail spaces where fewer people are on the network at the same time.|$506.00|One Time|N|||$2,024.00|
 |1|2530 8G PoE+ (J9780A)|HPE / Aruba|The Aruba 2530 Switch Series provides cost-effective, reliable and secure access layer connectivity for enterprises, branch offices and small and midsize businesses. These fully managed switches deliver Layer 2 capabilities with enhanced access security, traffic prioritization, sFlow, and IPv6 host support.  Right size deployment is available with a range of Gigabit and Fast Ethernet models including compact and fanless models which are ideal for use in quiet work spaces. PoE+ models deliver up 370W to power access points, IP phones and cameras.|$792.00|One Time|N|||$792.00|
 |2|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|The Aruba CX 6100 Switch Series is a modern family of entry level access switches ideal for branch offices, mid-market enterprise, and SMB networks. Designed for reliable, simple, and secure access, the Aruba CX 6100 switches provide a convenient wired access solution for enterprise networks supporting IoT, mobile, and cloud applications.|$2,406.49|One Time|N|||$4,812.98|
@@ -232,6 +232,34 @@ This network utilizes almost all of the current spine switches so if expansion w
 <br>
 
 # Appendix B Cost Analasys Sources:
+|Amount|Product Name |Manufacturer|Source|
+|:---:|:---:|:---:|:---:|
+|9|Central - device/year|HPE / Aruba||
+|4|AP-505|HPE / Aruba||
+|1|2530 8G PoE+ (J9780A)|HPE / Aruba||
+|2|6100 24G PoE 4SFP+ (JL677A)|HPE / Aruba|https://www.alphatechserve.com/jl677a-hewlett-packard-network-switch.html?msclkid=a699eefa4e881eba3a098c9c2df69082|
+|2|3810M 16SFP+ (JL075A)|HPE / Aruba||
+|27|HP wireless keyboard and mouse|HP||
+|54|ThinkCenter M70q Tiny|Lenovo||
+|27|ThinkPad L14 AMD (14”)|Lenovo||
+|27|ThinkPad Ultra Docking Station||
+|3|6U Net Rack|NavePoint||
+|1|18U Rack Enclosure|NavePoint||
+|27|Office 365 with Enterprise Outlook|Microsoft||
+|1|Azure|Microsoft|https://azure.microsoft.com/en-us/pricing/calculator/|
+|2|Firebox M290 Firewall - 8 Port|Watchguard Technologies||
+|27|CP-7841-K9|Cisco||
+|8|HL-L2325DW|Brother||
+|1|Versalink C405DNM|Xerox||
+|81|E205W-1600 20”|Sceptre||
+|2|Tripp Lite SMART1500LCD UPS|Tripp Lite||
+|2|EMC PowerEdge R240|Dell||
+|3|YubiKey 5 NFC FIPS – 10 Pack|Yubico|https://www.yubico.com/product/yubikey-5-nfc-fips-10-pack/|
+|5|1000ft Shielded Gray Cat6|cablewholesale|https://www.cablewholesale.com/products/bulk-cable/cat-6-cable-bulk/product-10x8-521nh.php|
+|578|Fiber Optic cable & Install / per foot||https://spendonhome.com/fiber-optic-cable-installation-cost/|
+|4536|Cat 6 installation & keystone’s / per foot|||
+|20|Inter Campus Tunnling / per foot||https://anchorfoundationrepair.net/blog/average-cost-under-slab-tunneling/|
+|13|Door Acess Control|Kisi||
 
 <br>
 <br>
